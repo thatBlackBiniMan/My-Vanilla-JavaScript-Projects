@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="quiz.css">
+  <title>Pathology Mcq</title>
+
+</head>
+<body>
+  <div id="container">
+    <div id="start">Start Exam</div>
+
+    <div id="guide">
+      <h2>Exam Rules</h2>
+      <h4>1. You Only Have 20 Seconds For Each Question</h4>
+      <h4>2. Once You Begin You Can't Exit, Exiting Equates To Automatic Failure</h4>
+      <h4>3. Once You Select An Answer and Click Next, It Can't Be Undone</h4>
+      <h4>4. You Are Awarded Points For Correct Answers</h4>
+      <h4>5. You Must Score Above 50 Percent To Qualify For The Next Round</h4>
+
+      <h2>I wish You Success In Your Exam, Goodluck Folks</h2>
+    <div id="button">
+      <button id="Exit">Exit</button>
+      <button id="Proceed">Proceed</button>
+    </div>
+    </div>
+
+
+    <div id="quiz">
+      <div id="quiz-header">
+        <h5>Histopathology Questions</h5>
+      <div id="timer">
+        <h6>Time Left:</h6>
+        <h6 id="time">00</h6>
+      </div>
+      </div>
+<div id="question">
+  <h2 id="questionNo">1.</h2>
+  <h2 id="questionText"></h2>
+</div>
+<div id="optionList">
+  <h4 class="choice-que" id="option1">A)</h4>
+  <h4 class="choice-que" id="option2">B)</h4>
+  <h4 class="choice-que" id="option3">C)</h4>
+  <h4 class="choice-que" id="option4">D)</h4>
+</div>
+
+
+<div id="answerSection">
+  <h3 id="total-correct">3 0f 10 Question</h3>
+   <h3 class="next-question" id="next-question">Next</h3>
+</div>
+    </div>
+
+
+    <div id="result">
+      <img src="FB_IMG_1539715426977.jpg" alt="">
+      <h6>You Have Completed The Exam</h6>
+    <h6 id="points">You Got 4 out of 10</h6>
+     <button id="quit">Quit Exam</button> 
+     <button id="startAgain">Next Level</button> 
+  </div>
+  </div>
+
+  <script src="quiz.js"></script>
+   <script src="questions.js"></script>
+</body>
+</html>

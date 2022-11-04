@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Newquiz.css">
+</head>
+<body>
+  <div id="container">
+  
+    <div id="start">Start Exam</div>
+    <div id="guide">
+      <h2>Exam Rules</h2>
+      <h4>1. You Only Have 20 Seconds For Each Question1. You Only Have 20 Seconds For Each Question</h4>
+      <h4>2. Once You Begin You Can't Exit, Exiting Equates To Automatic Failure</h4>
+      <h4>3. Once You Select An Answer and Click Next, It Can't Be Undone</h4>
+      <h4>4. You Are Awarded Points For Correct Answers</h4>
+      <h4>5. You Must Score Above 50 Percent To Qualify For The Next Round</h4>
+
+      <h2>I wish You Success In Your Exam, Goodluck Folks</h2>
+
+      <div id="button">
+        <button id="exit">Exit</button>
+        <button id="continue">Proceed</button>
+      </div>
+    </div>
+    
+    
+    
+    <div id="quiz">
+      <div id="quiz_header">
+        <h5>Histopathology Questions</h5>
+      <div id="timer">
+        <h6>Time Left:</h6>
+        <h6 id="time">00</h6>
+      </div>
+      </div>
+   
+   
+<div id="question">
+  <h2 id="questionNo">1.</h2>
+  <h2 id="questionText"></h2>
+</div>
+    
+
+<div id="optionList">
+  <h4 class="choice_que" id="option1">A)</h4>
+  <h4 class="choice_que" id="option2">B)</h4>
+  <h4 class="choice_que" id="option3">C)</h4>
+  <h4 class="choice_que" id="option4">D)</h4>
+</div>
+
+
+<div id="answersSection">
+  <h3 id="total_correct">3 0f 10 Question</h3>
+   <h3 id="next_question">Next</h3>
+</div>
+
+   </div>  
+  
+
+   
+   <div id="result">
+    <i class="fa-solid fa-trophy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M400 0H176c-26.5 0-48.1 21.8-47.1 48.2c.2 5.3 .4 10.6 .7 15.8H24C10.7 64 0 74.7 0 88c0 92.6 33.5 157 78.5 200.7c44.3 43.1 98.3 64.8 138.1 75.8c23.4 6.5 39.4 26 39.4 45.6c0 20.9-17 37.9-37.9 37.9H192c-17.7 0-32 14.3-32 32s14.3 32 32 32H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H357.9C337 448 320 431 320 410.1c0-19.6 15.9-39.2 39.4-45.6c39.9-11 93.9-32.7 138.2-75.8C542.5 245 576 180.6 576 88c0-13.3-10.7-24-24-24H446.4c.3-5.2 .5-10.4 .7-15.8C448.1 21.8 426.5 0 400 0zM48.9 112h84.4c9.1 90.1 29.2 150.3 51.9 190.6c-24.9-11-50.8-26.5-73.2-48.3c-32-31.1-58-76-63-142.3zM464.1 254.3c-22.4 21.8-48.3 37.3-73.2 48.3c22.7-40.3 42.8-100.5 51.9-190.6h84.4c-5.1 66.3-31.1 111.2-63 142.3z"/></svg></i> 
+   <h6>You Have Completed The Exam</h6>
+   <h6 id="points">You Got 4 out of 10</h6>
+   <button id="quit">Quit Exam</button> 
+   <button id="startAgain">Next Level</button> 
+</div>
+
+
+
+  </div>
+  <script src="Newquiz.js"></script>
+</body>
+</html>
