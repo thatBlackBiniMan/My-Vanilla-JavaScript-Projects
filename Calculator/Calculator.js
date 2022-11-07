@@ -1,6 +1,10 @@
 let Ac = document.querySelector(".btn-orange");
-
-
-Ac.addEventListener("click", ()=>{
+let Answer = document.querySelector("#answer");
   
-})
+
+
+  Ac.addEventListener("click", ()=>{
+     Answer.value ='';
+  });
+
+
